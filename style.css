@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Slabo 13px', serif;
 }
 .page1{
     width: 100%;
@@ -23,18 +24,16 @@
     font-family: 'Kodchasan';
 font-style: normal;
 font-weight: 500;
-font-size: 64px;
-line-height: 83px;
-
+font-size: 45px;
 color: #000000;
 }
 .page1__main__left__text{
     font-family: 'Slabo 13px';
 font-style: normal;
 font-weight: 400;
-font-size: 24px;
+font-size: 20px;
 line-height: 30px;
-margin-top: 100px;
+margin-top: 70px;
 color: #000000;
 }
 .page1__main__left__btnGroup{
@@ -52,7 +51,7 @@ border-radius: 5px;
 font-family: 'Slabo 13px';
 font-style: normal;
 font-weight: 400;
-font-size: 32px;
+font-size: 25px;
 line-height: 39px;
 text-align: center;
 display: flex;
@@ -79,7 +78,7 @@ background-image: url(./img/p1.png);
 }
 .page1__ul{
     display: flex;
-    margin-left: 750px;
+    margin-left: 390px;
 }
 .page1__logo{
     font-family: 'Kodchasan';
@@ -103,13 +102,12 @@ font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 25px;
-
 color: #000000;font-family: 'Slabo 13px';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 25px;
-margin: 0 55px;
+margin: 0 35px;
 color: #000000;
 }
 .page2{
@@ -179,7 +177,8 @@ color: #000000;
     /* border: 1px solid #000; */
 }
 .page3Line2{
-    margin-top: 14px;
+    margin-top: 17px;
+    
 }
 .page3RowImg{
     width: 355px;
@@ -188,6 +187,34 @@ color: #000000;
 .RowBoxInfo{
     width: 100%;
     height: 160px;
-    border: 1px solid #000;
     border-radius: 5px;
+    background-color: #ccc9a3;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.RowBoxInfoP{
+    font-size: 24px;
+}
+.RowBoxInfoP2{
+    font-size: 13px;
+}
+.buttonBoxInfo{
+    width: 100%;
+    height: 42px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B2AE7F;
+    font-size: 20px;
+}
+.RowBoxInfoP3{
+    font-size: 20px;
 }
