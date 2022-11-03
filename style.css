@@ -34,3 +34,51 @@
 .page2Text1{
     text-align: right;
 }
+.page3{
+    width: 100%;
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f2dd;
+    align-items: center;
+    padding: 0 150px;
+}
+.page3Line{
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    margin-top: 110px;
+}
+.page3Title{
+    margin-top: 110px;
+    font-size: 40px;
+}
+.page3Text{
+    font-size: 24px;
+    margin-top: 35px;
+}
+.page3Row{
+    width: 100%;
+    height: 515px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.page3RowBox{
+    width: 355px;
+    height: 100%;
+    /* border: 1px solid #000; */
+}
+.page3Line2{
+    margin-top: 14px;
+}
+.page3RowImg{
+    width: 355px;
+    height: 355px;
+}
+.RowBoxInfo{
+    width: 100%;
+    height: 160px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
