@@ -3,3 +3,34 @@
     margin: 0;
     box-sizing: border-box;
 }
+.page2{
+    width: 100%;
+    height: 100vh;
+    background-color: #f4f2dd;
+}
+.page2Row{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+.page2Row:first-child{
+    border-bottom: 1px solid #000;
+}
+.page2Row1{
+    justify-content: flex-end;
+}
+.page2Row2{
+    justify-content: flex-start;
+}
+.page2Img{
+    width: 49%;
+    height: 96%;
+}
+.page2Text{
+    font-size: 32px;
+    margin: 0 115px;
+}
+.page2Text1{
+    text-align: right;
+}
