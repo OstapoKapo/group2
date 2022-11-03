@@ -3,6 +3,115 @@
     margin: 0;
     box-sizing: border-box;
 }
+.page1{
+    width: 100%;
+    height: 1005px;
+    padding: 0 150px;
+    padding-top: 95px;
+    background-color: #F4F2DD;
+}
+.page1__main{
+    width: 100%;
+    display: flex;
+    height: 524px;
+    margin-top: 155px;
+}
+.page1__main__left{
+    width: 50%;
+}
+.page1__main__left__header{
+    font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 83px;
+
+color: #000000;
+}
+.page1__main__left__text{
+    font-family: 'Slabo 13px';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+margin-top: 100px;
+color: #000000;
+}
+.page1__main__left__btnGroup{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    align-items: center;
+    margin-top: 125px;
+}
+.page1__main__left__btnGroup__btn{
+    width: 269px;
+height: 73px;
+background: #B2AE7F;
+border-radius: 5px;
+font-family: 'Slabo 13px';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #000000;
+}
+.page1__main__left__btnGroup__text{
+    font-family: 'Slabo 13px';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height */
+margin-left: 55px;
+
+color: #000000;
+}
+.page1__main__right{
+    width: 719px;
+height: 524px;
+margin-left: 50px;
+background-image: url(./img/p1.png);
+}
+.page1__ul{
+    display: flex;
+    margin-left: 750px;
+}
+.page1__logo{
+    font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 52px;
+
+color: #000000;
+}
+.page1__header{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    align-items: center;
+   
+}
+.page1__li{
+    font-family: 'Slabo 13px';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+
+color: #000000;font-family: 'Slabo 13px';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+margin: 0 55px;
+color: #000000;
+}
 .page2{
     width: 100%;
     height: 100vh;
